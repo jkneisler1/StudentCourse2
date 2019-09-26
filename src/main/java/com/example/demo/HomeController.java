@@ -6,18 +6,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
     @RequestMapping("/")
-    public String home() {
+    public String index() {
         return "index";
     }
 
-    @RequestMapping("/home")
-    public String home2() {
-        return "home";
+    @RequestMapping("/index")
+    public String index2() {
+        return "index";
     }
 
-    @RequestMapping("/anotherPage")
-    public String home3() {
-        return "anotherPage";
+    @RequestMapping("/classes")
+    public String classes() {
+        return "classes";
+    }
+
+    @RequestMapping("/student")
+    public String student() {
+        return "student";
+    }
+
+    @RequestMapping("/transcript")
+    public String transcript() {
+        return "transcript";
     }
 
 }

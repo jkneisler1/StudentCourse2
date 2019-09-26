@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+
+th {
+    height: 50px;
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+#currentsem {
+    background-color: lightblue;
+}
+
